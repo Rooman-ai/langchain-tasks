@@ -22,3 +22,6 @@ This script demonstrates how to use LangChain's conversation memory modules to s
 
 Task-7:
 This task demonstrates how to use LangChain to process and summarize information from both a PDF document and a web page about AI challenges. It begins by configuring an OpenAI language model and embedding model, then loads the content of a specified PDF file and a web page using PyPDFLoader and WebBaseLoader, respectively. The loaded documents are split into manageable text chunks and stored as vector embeddings for efficient retrieval. The script then formulates a query ("AI challenges") and retrieves the most relevant text segments from both the PDF and web content using a retriever function. Finally, it uses a summarizer chain built on the language model to generate three-sentence summaries of the retrieved content from each source, printing the results for both the PDF and the web page. This approach enables efficient extraction and summarization of targeted information from diverse document types
+
+Task 8:
+This task leverages LangChain's prompt templates and structured output parsing to summarize a detailed passage about the impact of artificial intelligence across multiple industries into three sentences, calculates the character count of the summary, and outputs the result as a JSON object.
