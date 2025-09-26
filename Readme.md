@@ -10,3 +10,6 @@ This task imports two utility functions: one to configure an OpenAI language mod
 
 Task-3:
 This task loads a text file about AI, splits it into chunks, and stores their embeddings for retrieval. It then queries the vector store for text relevant to "AI milestones," summarizes the retrieved text into three sentences and one sentence using an LLM-based summarizer, and prints both summaries.
+
+Task-4:
+This task sets up an OpenAI language model and builds a three-sentence summarizer chain. It wraps the summarizer as a tool, adds it to an agent, and then uses the agent to summarize a passage about AI's impact on healthcare and to handle a vague summarization request. The results are printed to the console.
