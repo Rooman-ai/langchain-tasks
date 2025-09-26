@@ -25,3 +25,6 @@ This task demonstrates how to use LangChain to process and summarize information
 
 Task 8:
 This task leverages LangChain's prompt templates and structured output parsing to summarize a detailed passage about the impact of artificial intelligence across multiple industries into three sentences, calculates the character count of the summary, and outputs the result as a JSON object.
+
+Task 9:
+This script loads a text file about AI, creates vector embeddings, and uses both a standard retriever and LangChain's MultiQueryRetriever to find and summarize relevant content about "AI advancements," printing summaries for both single and multiple query approaches.
