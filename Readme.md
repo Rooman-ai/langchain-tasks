@@ -16,3 +16,6 @@ This task sets up an OpenAI language model and builds a three-sentence summarize
 
 Task-5:
 This task sets up an agent with tools for retrieving relevant text, summarizing it, and counting words. It loads a document, splits it into chunks, and creates embeddings. The agent is then used to find and summarize text about AI breakthroughs, and also to find, summarize, and count the words in the summary. The results are printed to the console.
+
+Task-6:
+This script demonstrates how to use LangChain's conversation memory modules to summarize and maintain context across multiple text inputs about machine learning and deep learning, printing summaries with both buffer and summary memory approaches.
