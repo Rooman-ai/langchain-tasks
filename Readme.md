@@ -13,3 +13,6 @@ This task loads a text file about AI, splits it into chunks, and stores their em
 
 Task-4:
 This task sets up an OpenAI language model and builds a three-sentence summarizer chain. It wraps the summarizer as a tool, adds it to an agent, and then uses the agent to summarize a passage about AI's impact on healthcare and to handle a vague summarization request. The results are printed to the console.
+
+Task-5:
+This task sets up an agent with tools for retrieving relevant text, summarizing it, and counting words. It loads a document, splits it into chunks, and creates embeddings. The agent is then used to find and summarize text about AI breakthroughs, and also to find, summarize, and count the words in the summary. The results are printed to the console.
