@@ -31,3 +31,6 @@ This task loads a text file about AI, creates vector embeddings, and uses both a
 
 Task 10:
 This task loads text, summarizes it using an LLM, and then uses a question-answering chain to identify the key event mentioned in both the summary and the full text, printing the results for each.
+
+Task 11:
+This task sets up an agent with tools for getting today's date and performing a mock web search, then uses it to summarize a provided AI history text with the current date and to summarize AI trends with recent updates, printing the results.
